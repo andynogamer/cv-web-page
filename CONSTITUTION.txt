@@ -1,0 +1,140 @@
+CONSTITUTION
+Personal web portfolio — Angel Antonio Mata Zamora
+This file is the source of truth. README.md explains how to run the site.
+Future changes must follow this document. When a request conflicts with it,
+follow the constitution.
+
+────────────────────────────────
+1. IDENTITY
+────────────────────────────────
+Project: Personal web portfolio for Angel Antonio Mata Zamora.
+Objective: Demonstrate dual expertise in embedded software (C++/Qt) and
+full-stack web development. Emphasize systems integration and interface design.
+Headline: Software Developer | Embedded Systems & Web
+Location: Monterrey, N.L.
+
+The site is a document, not a product landing page. It should feel like a
+technical spec, an editorial spread, or Swiss printed matter.
+
+────────────────────────────────
+2. ARCHITECTURE
+────────────────────────────────
+Tech stack: HTML5, CSS3, vanilla JavaScript.
+No build step, no framework, no CSS preprocessor, no Tailwind unless a later
+decision explicitly replaces this stack.
+Architecture: lightweight Single Page Application (one HTML document, hash
+navigation, no page reloads).
+Deploy as static files. Any static host is valid (GitHub Pages, Netlify, a
+plain folder).
+
+Canonical files:
+  index.html    All visible copy. Semantic markup. No lorem ipsum.
+  style.css     Visual system. CSS custom properties at :root.
+  main.js       Behavior only (nav highlight, year). Keep it small.
+  favicon.svg   Mark: bone field, 1px ink frame, solid accent square.
+  CONSTITUTION.txt   This file.
+  README.md     Operator guide.
+
+Do not split the site into a component library, a bundler, or a CMS unless
+the owner asks for that change in writing.
+
+────────────────────────────────
+3. VISUAL SYSTEM (ANTI-AI LOOK)
+────────────────────────────────
+Style: radical minimalism, Swiss design, or soft brutalism.
+Hierarchy comes from type size, weight, alignment, and solid contrast.
+Not from effects.
+
+Palette (implemented — do not invent a second accent):
+  --bg      #F4F4F0    bone / off-white
+  --ink     #111111    charcoal
+  --accent  #C2340A    industrial rust (the only accent)
+
+Monochrome plus one solid accent. Muted greys are allowed only if they stay
+in the charcoal family. Prefer ink + size + weight over extra greys.
+
+Type:
+  Sans: Inter, then Helvetica Neue, Helvetica, Arial.
+  Mono: IBM Plex Mono, for labels, dates, tech tags, navigation, contact keys.
+  Headings are large, tight tracking, structured. The name is a poster lockup.
+  Do not introduce display fonts, variable-color fonts, or “tech/cyber” type.
+
+Layout:
+  Strict grid. Max content width ~72rem.
+  1px solid ink dividers (--line).
+  Ample whitespace.
+  Intentional asymmetry (section index column vs body; featured project vs list).
+  Sticky masthead is a solid bone bar with a 1px bottom rule — never frosted.
+
+Interaction:
+  Immediate and industrial.
+  Buttons: square corners, solid fill, 1px border, color inversion on hover.
+  Transitions, if any, are color/background/border only and ≤ 80ms linear.
+  No scale, no blur, no shadow lift, no slow fades.
+
+────────────────────────────────
+4. PROHIBITED (CRITICAL)
+────────────────────────────────
+ZERO gradients (including CSS, SVG, and mesh gradients).
+ZERO glassmorphism (semi-transparent blur, backdrop-filter).
+ZERO generic 3D illustrations or tech/cyber vectors.
+ZERO soft shadows and ZERO decorative drop shadows.
+ZERO excessive rounded corners. Default radius is 0.
+ZERO stock “AI portfolio” tropes: blobs, orbs, grain overlays, glow, noise
+meshes, floating cards, pill-shaped everything, hero mockups of laptops.
+
+If a suggestion would look generated, reject it. Rebuild with type, line,
+and solid color instead.
+
+────────────────────────────────
+5. CONTENT RULES
+────────────────────────────────
+All copy in index.html must be real. No fake roles, no placeholder projects,
+no lorem ipsum.
+
+Facts live in the HTML, not in JavaScript data files, unless the owner later
+asks for a content store.
+
+When updating experience, projects, education, or contact:
+  - Keep dates, employers, and claims consistent with the CV.
+  - Do not invent metrics, clients, or tools.
+  - Tech tags must name tools actually used in that role or project.
+  - AscentraMX live URL: https://ascentramx.com/
+  - GitHub: https://github.com/andynogamer
+  - Email: antoniomz769@gmail.com
+  - Phone: +52 81 2701 6158
+
+Preferred page order:
+  Index (hero) → Profile → Experience → Projects → Education → Contact
+
+────────────────────────────────
+6. ROLES FOR FUTURE AGENTS
+────────────────────────────────
+@Designer
+UI/UX architect for pure minimalism and editorial design.
+Guardian of this constitution. Reject AI-looking visuals.
+Hierarchy = size, weight, solid contrast.
+
+@Developer
+Frontend engineer. Semantic HTML, modular CSS, real content in the markup.
+Must stay 100% responsive.
+Hovers are instant solid-color changes, not motion design.
+
+────────────────────────────────
+7. CHANGE PROTOCOL
+────────────────────────────────
+Allowed without debate:
+  - Updating CV facts (dates, bullets, links).
+  - Fixing bugs, accessibility, or overflow at small viewports.
+  - Tightening spacing or type scale inside the existing system.
+
+Requires explicit owner approval:
+  - New accent color, new typeface, or a second accent.
+  - New JS dependencies or a build tool.
+  - Images, photos, or illustrations.
+  - Animations beyond 80ms color changes.
+  - Removing the 1px rule language or the section-index column.
+
+After any visual change, check desktop and a ~390px viewport.
+Confirm: no horizontal scroll, no clipped type, no rounded shadows, no
+gradients. Buttons still invert on hover.
