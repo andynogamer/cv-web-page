@@ -100,7 +100,15 @@ When updating experience, projects, education, or contact:
   - Do not invent metrics, clients, or tools.
   - Tech tags must name tools actually used in that role or project.
   - AscentraMX live URL: https://ascentramx.com/
-  - GitHub: https://github.com/andynogamer
+  - Main code projects (must stay on the page):
+      Gestión LMAD — https://github.com/andynogamer/gestion-lmad
+      MundialInfog (PWCI-FINAL) — https://github.com/andynogamer/PWCI-FINAL
+      Micro-Tanks Arena 3D (gwci_pia) — https://github.com/andynogamer/gwci_pia
+      LMB Plusur — https://github.com/andynogamer/LMB_Plusur
+  - Do not list SuperOfertas MX. That project was never built.
+  - Do not claim Unity AR Foundation or Python on LMB Plusur. AR is ARCore
+    via Flutter (ar_flutter_plugin_plus). Content is local; no backend.
+  - GitHub profile: https://github.com/andynogamer
   - Email: antoniomz769@gmail.com
   - Phone: +52 81 2701 6158
 

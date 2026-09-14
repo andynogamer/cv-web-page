@@ -43,7 +43,7 @@ Change text in `index.html` only. Do not add lorem ipsum.
 Typical edits:
 
 - **Experience** — each `<article class="job">`
-- **Projects** — `.feature` (AscentraMX) and `.project-list`
+- **Projects** — `.feature` (AscentraMX) and `.project-list` (Gestión LMAD, MundialInfog, Micro-Tanks Arena 3D, LMB Plusur)
 - **Education / skills** — `#education`
 - **Contact** — `#contact`
 

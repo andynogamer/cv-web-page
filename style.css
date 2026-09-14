@@ -451,6 +451,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.project .btn {
+  margin-top: 1rem;
+}
+
 .github-row {
   display: grid;
   gap: 1rem;
