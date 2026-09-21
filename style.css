@@ -235,6 +235,10 @@ a:hover {
   line-height: 1.5;
 }
 
+.hero__actions {
+  margin-top: 1.35rem;
+}
+
 .band {
   display: grid;
   grid-template-columns: 1fr;
